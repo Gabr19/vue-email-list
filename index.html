@@ -12,7 +12,14 @@
 
 
 
-<div id="app">{{ email }}</div>
+<div id="app">
+    <ul>
+        <li v-for="(item, index) in emails">
+            {{emails}}
+        </li>
+        
+    </ul>
+</div>
 
 
 
